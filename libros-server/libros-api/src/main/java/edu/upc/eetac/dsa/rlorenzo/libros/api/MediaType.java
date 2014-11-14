@@ -1,4 +1,4 @@
-package edu.upc.eetac.dsa.ivangonzalez7.libros.api;
+package edu.upc.eetac.dsa.rlorenzo.libros.api;
 
 public interface MediaType {
 	public final static String BOOKS_API_USER = "application/vnd.books.api.user+json";

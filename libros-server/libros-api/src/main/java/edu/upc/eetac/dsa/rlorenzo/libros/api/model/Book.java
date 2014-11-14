@@ -1,9 +1,9 @@
-package edu.upc.eetac.dsa.rgonzalez.libros.api.model;
+package edu.upc.eetac.dsa.rlorenzo.libros.api.model;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import edu.upc.eetac.dsa.rgonzalez.libros.api.links.Link;
+import edu.upc.eetac.dsa.rlorenzo.libros.api.links.Link;
 
 public class Book {
 	private String id;

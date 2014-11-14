@@ -1,4 +1,4 @@
-package edu.upc.eetac.dsa.ivangonzalez7.libros.auth;
+package edu.upc.eetac.dsa.rlorenzo.libros.auth;
 
 import javax.naming.Context;
 import javax.naming.InitialContext;

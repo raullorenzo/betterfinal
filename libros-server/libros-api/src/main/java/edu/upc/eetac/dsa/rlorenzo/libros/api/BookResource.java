@@ -1,4 +1,4 @@
-package edu.upc.eetac.dsa.ivangonzalez7.libros.api;
+package edu.upc.eetac.dsa.rlorenzo.libros.api;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -23,11 +23,11 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
 import javax.ws.rs.core.UriInfo;
 
-import edu.upc.eetac.dsa.ivangonzalez7.libros.api.model.BookCollection;
-import edu.upc.eetac.dsa.ivangonzalez7.libros.api.model.Book;
-import edu.upc.eetac.dsa.ivangonzalez7.libros.api.model.Review;
-import edu.upc.eetac.dsa.ivangonzalez7.libros.api.model.ReviewCollection;
-import edu.upc.eetac.dsa.ivangonzalez7.libros.api.links.BookAPILinkBuilder;
+import edu.upc.eetac.dsa.rlorenzo.libros.api.model.BookCollection;
+import edu.upc.eetac.dsa.rlorenzo.libros.api.model.Book;
+import edu.upc.eetac.dsa.rlorenzo.libros.api.model.Review;
+import edu.upc.eetac.dsa.rlorenzo.libros.api.model.ReviewCollection;
+import edu.upc.eetac.dsa.rlorenzo.libros.api.links.BookAPILinkBuilder;
 
 @Path("/books")
 public class BookResource {

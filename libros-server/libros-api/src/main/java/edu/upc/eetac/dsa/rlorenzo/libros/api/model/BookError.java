@@ -1,14 +1,14 @@
-package edu.upc.eetac.dsa.rgonzalez.libros.api.model;
+package edu.upc.eetac.dsa.rlorenzo.libros.api.model;
 
-public class ReviewError {
+public class BookError {
 	private int status;
 	private String message;
 
-	public ReviewError() {
+	public BookError() {
 		super();
 	}
 
-	public ReviewError(int status, String message) {
+	public BookError(int status, String message) {
 		super();
 		this.status = status;
 		this.message = message;
@@ -30,5 +30,4 @@ public class ReviewError {
 		this.message = message;
 	}
 }
-
 

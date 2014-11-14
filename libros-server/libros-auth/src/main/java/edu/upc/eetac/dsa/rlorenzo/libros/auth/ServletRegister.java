@@ -1,4 +1,4 @@
-package edu.upc.eetac.dsa.ivangonzalez7.libros.auth;
+package edu.upc.eetac.dsa.rlorenzo.libros.auth;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -32,7 +32,7 @@ import org.apache.http.impl.client.BasicCredentialsProvider;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 
-import edu.upc.eetac.dsa.ivangonzalez7.libros.auth.DataSourceSPA;
+import edu.upc.eetac.dsa.rlorenzo.libros.auth.DataSourceSPA;
 
 @SuppressWarnings("deprecation")
 public class ServletRegister extends HttpServlet {
