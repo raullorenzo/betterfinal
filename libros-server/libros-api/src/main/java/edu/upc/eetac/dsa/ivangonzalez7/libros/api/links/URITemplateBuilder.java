@@ -1,4 +1,4 @@
-package edu.upc.eetac.dsa.rlorenzo.libros.api.links;
+package edu.upc.eetac.dsa.ivangonzalez7.libros.api.links;
 
 import java.net.URI;
 

@@ -1,9 +1,9 @@
-package edu.upc.eetac.dsa.rlorenzo.libros.api;
+package edu.upc.eetac.dsa.ivangonzalez7.libros.api;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import edu.upc.eetac.dsa.rlorenzo.libros.api.links.Link;
+import edu.upc.eetac.dsa.ivangonzalez7.libros.api.links.Link;
 
 
 public class BookRootAPI {

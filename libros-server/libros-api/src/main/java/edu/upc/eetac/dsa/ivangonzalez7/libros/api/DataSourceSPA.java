@@ -1,32 +1,32 @@
-package edu.upc.eetac.dsa.rlorenzo.libros.api;
+package edu.upc.eetac.dsa.ivangonzalez7.libros.api;
 
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 
-public class DataSourceSPA2 {
-	private DataSource dataSource;
-	private static DataSourceSPA2 instance;
-
-	private DataSourceSPA2() {
+public class DataSourceSPA {
+    private DataSource dataSource;
+	private static DataSourceSPA instance;
+ 
+	private DataSourceSPA() {
 		super();
 		Context envContext = null;
 		try {
 			envContext = new InitialContext();
 			Context initContext = (Context) envContext.lookup("java:/comp/env");
-			dataSource = (DataSource) initContext.lookup("jdbc/rolesdb");
+			dataSource = (DataSource) initContext.lookup("jdbc/librosdb");
 		} catch (NamingException e1) {
 			e1.printStackTrace();
 		}
 	}
-
-	public final static DataSourceSPA2 getInstance() {
+ 
+	public final static DataSourceSPA getInstance() {
 		if (instance == null)
-			instance = new DataSourceSPA2();
+			instance = new DataSourceSPA();
 		return instance;
 	}
-
+ 
 	public DataSource getDataSource() {
 		return dataSource;
 	}

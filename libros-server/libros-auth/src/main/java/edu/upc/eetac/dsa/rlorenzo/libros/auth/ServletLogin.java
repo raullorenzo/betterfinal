@@ -1,4 +1,4 @@
-package edu.upc.eetac.dsa.rlorenzo.libros.auth;
+package edu.upc.eetac.dsa.ivangonzalez7.libros.auth;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.sql.DataSource;
 
-import edu.upc.eetac.dsa.rlorenzo.libros.auth.DataSourceSPA;
+import edu.upc.eetac.dsa.ivangonzalez7.libros.auth.DataSourceSPA;
 
 
 public class ServletLogin extends HttpServlet {
